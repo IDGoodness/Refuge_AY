@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav p {
+    color: white;
+    font-size: 20px;
+    margin: .5rem;
+    font-weight: 700;
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background: linear-gradient(to top, rgba(231, 228, 228, 0.5)50%,rgba(233, 231, 231, 0.5)50%), url(Screenshot_20230302-195740.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    background: rgb(78, 122, 241);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+    font-weight: 550;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .7rem;
+}
+nav .mainMenu li a:hover {
+    background: white;
+    color: blue;
+}
+
+nav .openMenu {
+    font-size: 1rem;
+    margin: 20px;
+    display: none;
+}
+
+nav .closeMenu {
+    display: none;
+}
+
+nav .logo {
+    margin: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.hero h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 22px;
+}
+
+.part {
+    font-size: 20px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 100%;
+    font-weight: 400;
+    opacity: .8;
+    text-align: center;
+}
+
+.total {
+    font-size: 20px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 100%;
+    font-weight: 400;
+    opacity: .8;
+    text-align: center;
+}
+
+.teach {
+    font-size: 20px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 100%;
+    font-weight: 400;
+    opacity: .8;
+    text-align: center;
+}
+
+.non {
+    font-size: 20px;
+    line-height: 2.8;
+    margin-top: 1.8rem;
+    font-weight: 400;
+    opacity: .8;
+    width: 100%;
+    text-align: center;
+}
+
+.africa {
+    display: flex;
+}
+
+
+.Picture img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.click {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.image{
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 3px;
+}
+
+.Ay {
+    color: purple;
+}
+
+.city {
+    display: flex;
+    background: rgb(88, 88, 177);
+    color: white;
+    margin-top: 3rem;
+}
+
+.refuge h1 {
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+.refuge, .street {
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.refuge, .email {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.refuge, .phone {
+    margin-left: 3rem;
+}
+
+.useful h1 {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.line {
+    width: 15%;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.useful, .links {
+    list-style: none;
+    list-style: square;
+}
+
+.links, .cit {
+    margin: 1rem;
+}
+
+.cit, .of {
+    color: white;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.create {
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+@media(max-width:1000px){
+    nav .mainMenu {
+        height: 36vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 100;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(78, 122, 241);
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.7rem;
+        margin-top: .5rem;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: white;
+        font-size: .8rem;
+    }
+
+    nav .logo {
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+
+    .africa {
+        display: grid;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+        text-align: start;
+        margin-left: 1rem;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+        /* text-align: center; */
+        text-align: start;
+        width: 95%;
+        margin: 0;
+        margin-top: .5rem;
+        margin-left: 1rem;
+    }
+
+
+    .Picture img {
+        margin: 0;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .city {
+        display: grid;
+        margin-top: 3rem;
+    }
+
+    .line {
+        width: 7%;
+    }
+
+    .refuge {
+        margin: 0;
+    }
+
+    .refuge h1 {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+    }
+
+    .refuge, .street {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+        width: 70%;
+    }
+
+    .refuge, .email {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+    }
+
+    .refuge, .phone {
+        margin: 0;
+        margin-left: .4rem;
+    }
+
+    .create {
+        font-size: 13px;
+        text-align: center;
+        padding: 2rem;
+    }
+}

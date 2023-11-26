@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+nav p {
+    color: white;
+    font-size: 20px;
+    margin: .5rem;
+    font-weight: 700;
+}
+
+nav {
+    background: rgb(78, 122, 241);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}  
+
+nav .logo {
+    margin: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pictures h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 28px;
+}
+
+.pic15 {
+    display: flex;
+}
+
+.image img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.image2 img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.pic16 {
+    display: flex;
+}
+
+.image3 img, .image4 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic17 {
+    display: flex;
+}
+
+.image5 img, .image6 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic19 {
+    display: flex;
+}
+
+.image9 img, .image10 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic20 {
+    display: flex;
+}
+
+.image11 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.image12 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic18 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image7 img, .image8 img {
+    width: 100%;
+    margin-top: 4rem;
+    height: 100vh;
+    
+}
+
+.pic21 {
+    display: flex;
+    justify-content: center;
+}
+
+.image13 img {
+    width: 50%;
+    margin-left: 20rem;
+    margin-top: 4rem;
+}
+
+i {
+    color: purple;
+}
+
+.city {
+    display: flex;
+    background: rgb(88, 88, 177);
+    color: white;
+    margin-top: 3rem;
+}
+
+.refuge h1 {
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+.refuge, .street {
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.refuge, .email {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.refuge, .phone {
+    margin-left: 3rem;
+}
+
+.useful h1 {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.line {
+    width: 15%;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.useful, .links {
+    list-style: none;
+    list-style: square;
+}
+
+.links, .cit {
+    margin: 1rem;
+}
+
+.cit, .of {
+    color: white;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.create {
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+@media(max-width:1000px){
+    nav .logo {
+        font-size: 15px;
+    }
+
+    .pictures h1 {
+        font-size: 20px;
+    }
+
+    .pic15 {
+        display: flex;
+    }
+
+    .pic16 {
+        display: flex;
+    }
+
+    .pic17 {
+        display: flex;
+    }
+
+    .pic18 {
+        display: flex;
+    }
+
+    .image7 img, .image8 img {
+        height: 50vh;
+    }
+
+    .pic19 {
+        display: flex;
+    }
+
+    .image9 img, .image10 img {
+        width: 100%;
+    }
+
+    .pic20 {
+        display: flex;
+    }
+    
+    .image13 img {
+        width: 100%;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .city {
+        display: grid;
+        margin-top: 3rem;
+    }
+
+    .line {
+        width: 7%;
+    }
+
+    .refuge {
+        margin: 0;
+    }
+
+    .refuge h1 {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+    }
+
+    .refuge, .street {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+        width: 70%;
+    }
+
+    .refuge, .email {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+    }
+
+    .refuge, .phone {
+        margin: 0;
+        margin-left: .4rem;
+    }
+
+    .create {
+        font-size: 13px;
+        text-align: center;
+        padding: 2rem;
+    }
+}
